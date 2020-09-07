@@ -1,0 +1,39 @@
+name: TestProject
+main: ch.alderaan.bukkit.clansandmore.ClansAndMore
+version: 0.9
+commands:
+     foundclan: 
+          description: Found a clan.
+          usage: /<command> [clanname]
+          permission: TestProject.basic
+          permission-massage: You don't have permission to do that.
+     joinclan: 
+          description: Join a clan.
+          usage: /<command> [clanname]
+          permission: TestProject.basic
+          permission-massage: You don't have permission to do that.
+     leaveclan:
+          description: leave a clan.
+          usage: /<command> [clanname]
+          permission: TestProject.basic
+          permission-massage: You don't have permission to do that.
+     clan:
+          description: show clan.
+          usage: /<command>
+          permission: TestProject.basic
+          permission-message: You don't have permission to do that.
+     clans:
+          description: Show all clans.
+          usage: /<command>
+          permission: TestProject.basic
+          permission-message: You don't have permission to do that.
+     inviteclan:
+          description: Invite a person to your clan
+          usage: /<command> [playername]
+          permission: testProject.basic
+          permission-message: You don't have permission to do that.
+     setport:
+          description: set a block as a portal
+          usage: /<command> [portalname] [targetname]
+          permission: testProject.basic
+          permission-message: You don't have permission to do that.
