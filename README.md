@@ -5,7 +5,7 @@ This Plugin allows to create clans, join them, invite people to them, protect ar
 Area Protection is done by placing beds. This feature is enabled upon enabling the Plugin itself. Upon placing a bed an area of X +/- 25, Y +/- 25, Z +/- 25 is Protected against grief for all other players except the ones in the Clan you are in while placing the bed.  
 If you are switching or leaving clans, it is best to replace your bed, so that your "old" clan can't destroy or build on your area.
   
-You can create Glowstone-Portals by placing one Glowstone-Block, standing on it and issuing "/setport" (see below).  
+You can create Glowstone-Portals by placing one Glowstone-Block, standing on it and issuing "/setport" (see below). A portal is defined by its name and the name of it's target portal.  
 ## Commands
 ### Clans
 /foundclan [clanname]: creates a clan and joins the command-issuer to it (if it doesn't already exist.  
